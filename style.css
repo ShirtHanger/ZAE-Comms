@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Comic Sans MS', sans-serif; /* Retro font */
     align-items: center;
 }
 
@@ -57,3 +56,4 @@ button:hover {
     border-style: inset; /* Inset border on active */
 
 }
+
