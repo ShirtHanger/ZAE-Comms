@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Retro font */
+    font-family: 'Comic Sans MS', sans-serif; /* Retro font */
     align-items: center;
 }
 
@@ -55,4 +55,5 @@ button:hover {
     transform: scale(1.1);
     background: #ff0000; /* Red when active */
     border-style: inset; /* Inset border on active */
+
 }
