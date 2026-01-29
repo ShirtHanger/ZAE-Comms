@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Retro font */
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    margin: auto;
+    /* background: linear-gradient(yellow, pink, pink); */ /* Gradiant background */
+    background: url('https://files.catbox.moe/ludi3y.jpeg'); /* Screenshot off my phone */
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    font-family: "Poiret One";
+    font-weight: 200;
+    font-style: normal;
+    text-decoration-color: black;
+    text-decoration: double;
+    text-shadow: 2px 2px 4px black;
+}
+
+h1 {
+    background: #00ccff; /* Bright cyan */
+    color: #000;
+    padding: 30px;
+    border: 5px double #00ff00; /* Double border */
+    text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.8); /* White shadow */
+    margin: 20px;
+    font-size: 3em; /* Larger font size */
+}
+
+button {
+    font-size: 1.5rem;
+    transition: transform 0.5s;
+    background: rgba(52, 120, 238, 0.7); /* Makes the background of the button see-through, but not text */
+    border-radius: 35%;
+    color: silver;
+    margin: auto;
+    width: auto;
+    font-weight: bold;
+    border: 3px solid #ff00ff; /* Solid border */
+    padding: 15px 30px; /* Adjusted padding */
+    font-size: 40px; /* Adjusted font size */
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #ff0000; /* Red when active */
+    border-style: inset; /* Inset border on active */
+}
